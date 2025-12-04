@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  portfolio:
+    image: ngothanhdatak/portfolio:lastest
+    container_name: portfolio-app
+    ports:
+      - "5173:5173"
+    restart: unless-stopped
+    networks:
+      - portfolio-network
+
+networks:
+  portfolio-network:
+    driver: bridge
