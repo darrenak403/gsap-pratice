@@ -11,7 +11,7 @@ export default defineConfig({
     strictPort: true,
     hmr: {
       protocol: 'wss', // WebSocket Secure for HTTPS
-      host: 'portfolio.darrenak.id.vn',
+      host: 'profile.darrenak.id.vn',
       port: 443,
       clientPort: 443,
     },
