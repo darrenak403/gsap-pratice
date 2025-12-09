@@ -1,5 +1,5 @@
 services:
-  portfolio:
+  portfolio-fe:
     image: ngothanhdatak/portfolio:latest
     container_name: portfolio-app
     ports:
