@@ -9,11 +9,11 @@ export default defineConfig({
     host: '0.0.0.0',
     port: 5173,
     strictPort: true,
-    allowedHosts: ['portfolio.darrenak.id.vn', 'localhost'],
+    allowedHosts: ['profile.darrenak.id.vn', 'localhost'],
 
     hmr: {
       protocol: 'wss',
-      host: 'portfolio.darrenak.id.vn',
+      host: 'profile.darrenak.id.vn',
       clientPort: 443,
     },
   },
