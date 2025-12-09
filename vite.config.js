@@ -9,5 +9,8 @@ export default defineConfig({
     port: 5173,
     strictPort: true,
     allowedHosts: ['portfolio.darrenak.id.vn'],
+    hmr: {
+      clientPort: 443,
+    },
   },
 })
