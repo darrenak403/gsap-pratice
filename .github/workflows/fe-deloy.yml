@@ -35,4 +35,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ngothanhdatak/portfolio:lastest
+          tags: ngothanhdatak/portfolio-fe:datngo
