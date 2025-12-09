@@ -6,14 +6,14 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
-    host: '0.0.0.0', // Listen on all network interfaces
+    host: '0.0.0.0',
     port: 5173,
     strictPort: true,
-    allowedHosts: ['profile.darrenak.id.vn'],
+    allowedHosts: ['portfolio.darrenak.id.vn', 'localhost'],
+
     hmr: {
-      protocol: 'wss', // WebSocket Secure for HTTPS
-      host: 'profile.darrenak.id.vn',
-      port: 443,
+      protocol: 'wss',
+      host: 'portfolio.darrenak.id.vn',
       clientPort: 443,
     },
   },
