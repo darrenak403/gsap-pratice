@@ -1,6 +1,6 @@
 services:
   portfolio:
-    image: ngothanhdatak/portfolio:datngo
+    image: ngothanhdatak/portfolio:lastest
     container_name: portfolio-app
     ports:
       - "5173:5173"
