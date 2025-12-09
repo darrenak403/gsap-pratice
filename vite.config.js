@@ -9,6 +9,7 @@ export default defineConfig({
     host: '0.0.0.0', // Listen on all network interfaces
     port: 5173,
     strictPort: true,
+    allowedHosts: ['profile.darrenak.id.vn'],
     hmr: {
       protocol: 'wss', // WebSocket Secure for HTTPS
       host: 'profile.darrenak.id.vn',
