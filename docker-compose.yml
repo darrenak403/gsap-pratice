@@ -1,9 +1,14 @@
 services:
   portfolio-fe:
+    build:
+      context: .
+      dockerfile: Dockerfile
     image: ngothanhdatak/portfolio-fe:datngo
     container_name: portfolio-app
     ports:
       - "5173:5173"
+    environment:
+      - NODE_ENV=production
     restart: unless-stopped
     networks:
       - portfolio-network
